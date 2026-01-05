@@ -5,7 +5,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # ---------- Flask App ----------
-app = Flask(name)
+app = Flask(_name_)
 
 @app.route('/')
 def home():
